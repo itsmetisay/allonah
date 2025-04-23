@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+/* Header styles */
+header {
+    background-color: #4682b4; /* Steel blue background */
+    color: white; /* White text color */
+    padding: 20px; /* Padding for header */
+    text-align: center; /* Center text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Space between items */
+}
+
+nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Padding for main content */
+}
+
+section {
+    margin-bottom: 20px; /* Space between sections */
+    background-color: #ffffff; /* White background for sections */
+    padding: 15px; /* Padding inside sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Image styles */
+.row {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of images */
+    justify-content: center; /* Center images */
+    margin-top: 20px; /* Space above the image row */
+}
+
+.row img {
+    max-width: 150px; /* Set maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Space between images */
+    border-radius: 5px; /* Optional: rounded corners for images */
+}
+
+/* Contact section styles */
+.right-col {
+    margin-top: 20px; /* Space above the contact section */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center text */
+    padding: 10px; /* Padding for footer */
+    background-color: #4682b4; /* Steel blue background */
+    color: white; /* White text color */
+    position: relative; /* Positioning for footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
